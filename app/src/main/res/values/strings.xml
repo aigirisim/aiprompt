@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">PromptAI</string>
+    <string name="action_go">Go</string>
+    <string name="summarize_label">Text to summarize</string>
+    <string name="summarize_hint">Enter text or a URL to summarize</string>
+    <string name="creative_writing_text">CREATIVE WRITING</string>
+    <string name="education_text">EDUCATION</string>
+    <string name="technology_and_coding_text">TECHNOLOGY AND CODING</string>
+    <string name="draw_text">DRAW</string>
+    <string name="video_and_music_text">VIDEO AND MUSIC</string>
+    <string name="creative_writing_image">Creative writing tools</string>
+    <string name="education_image">Education tools</string>
+    <string name="technology_and_coding_image">Technology and code tools</string>
+    <string name="draw_image">Drawing tools</string>
+    <string name="video_and_music_image">Video and music tools</string>
+    <string name="DRAW">Draw Button</string>
+
+
+</resources>

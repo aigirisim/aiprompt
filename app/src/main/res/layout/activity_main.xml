@@ -8,7 +8,7 @@
     app:curveRadius="10dp">
 
 
-    <com.example.promptai.CurvedTextView
+    <com.example.curved.CurvedTextView
         android:id="@+id/CurvedTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -17,16 +17,17 @@
         android:longClickable="true"
         android:padding="16dp"
         android:text="@string/DRAW"
-        android:textColor="#610B0B"
+        android:textColor="#490303"
         android:textStyle="bold"
+        android:visibility="visible"
         app:curveDirection="bottom_to_top"
         app:curveRadius="32dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.085" />
 
     <TextView
         android:id="@+id/textView6"

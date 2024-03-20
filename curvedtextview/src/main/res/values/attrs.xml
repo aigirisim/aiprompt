@@ -1,0 +1,15 @@
+<resources>
+    <declare-styleable name="CurvedTextView">
+        <attr name="customFont" format="reference" />
+        <attr name="angle" format="float" />
+        <attr name="radius" format="dimension" />
+        <attr name="curveRadius" format="dimension" />
+        <attr name="text" format="string" />
+        <attr name="textColor" format="color" />
+        <attr name="textSize" format="dimension" />
+        <attr name="curveDirection" format="enum">
+            <enum name="top_to_bottom" value="0" />
+            <enum name="bottom_to_top" value="1" />
+        </attr>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,28 @@
+plugins {
+    alias(libs.plugins.jetbrains.kotlin.android)
+}
+apply plugin: 'com.android.library'
+
+android {
+    compileSdk 34
+    // Diğer yapılandırmalarınız...
+
+    namespace 'com.example.curved'
+
+    defaultConfig {
+        minSdkVersion 21
+        targetSdkVersion 34
+        // Diğer yapılandırmalarınız...
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+}
+
+dependencies {
+    implementation libs.androidx.annotation
+    implementation libs.support.annotations
+    implementation libs.core.ktx
+    implementation libs.androidx.appcompat
+
+}

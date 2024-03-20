@@ -1,0 +1,6 @@
+<resources>
+    <style name="MyCurvedTextViewStyle">
+        <item name="customFont">@font/anton</item>
+        <!-- Diğer stil özellikleri -->
+    </style>
+</resources>

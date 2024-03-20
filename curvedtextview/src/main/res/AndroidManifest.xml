@@ -1,0 +1,15 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.curvedtextview">
+
+    <!-- Eğer modül bir ContentProvider kullanıyorsa -->
+    <application>
+        <provider
+            android:name="com.example.curved.CurvedTextViewProvider"
+            android:authorities="com.example.curvedtextview.provider"
+            android:exported="false">
+            <!-- Diğer provider ayarları buraya eklenebilir -->
+        </provider>
+
+        <!-- Modülünüzün diğer bileşenleri varsa, onlar için de etiketler ekleyin -->
+    </application>
+</manifest>

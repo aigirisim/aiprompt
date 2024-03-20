@@ -2,6 +2,7 @@ package com.example.promptai
 
 import android.os.Bundle
 import android.util.TypedValue
+import android.view.View
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.Box
@@ -33,6 +34,7 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
+import com.example.curved.CurvedTextView
 import com.example.promptai.ui.theme.PromptAITheme
 import com.google.ai.client.generativeai.GenerativeModel
 
@@ -44,7 +46,11 @@ class MainActivity : ComponentActivity() {
         // finds the curvedTextView object
         val curvedTextView = findViewById<CurvedTextView>(R.id.CurvedTextView)
 
-        curvedTextView.setTextSize(TypedValue.COMPLEX_UNIT_PX, 100f)
+        curvedTextView.setTextSize(TypedValue.COMPLEX_UNIT_PX, 16f)
+
+        curvedTextView.text = getString(R.string.DRAW)
+
+        curvedTextView.visibility = View.VISIBLE
 
         curvedTextView.invalidate()
 

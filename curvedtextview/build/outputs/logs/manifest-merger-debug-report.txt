@@ -1,16 +1,16 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Muhammed Agcadag\AndroidStudioProjects\PromptAI\curvedtextview\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest8753421728773051852.xml:2:13-83
-INJECTED from C:\Users\Muhammed Agcadag\AndroidStudioProjects\PromptAI\curvedtextview\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest8753421728773051852.xml:2:13-83
+ADDED from C:\Users\Muhammed Agcadag\AndroidStudioProjects\PromptAI\curvedtextview\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest15803567348871602236.xml:2:13-83
+INJECTED from C:\Users\Muhammed Agcadag\AndroidStudioProjects\PromptAI\curvedtextview\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest15803567348871602236.xml:2:13-83
 	package
-		INJECTED from C:\Users\Muhammed Agcadag\AndroidStudioProjects\PromptAI\curvedtextview\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest8753421728773051852.xml
+		INJECTED from C:\Users\Muhammed Agcadag\AndroidStudioProjects\PromptAI\curvedtextview\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest15803567348871602236.xml
 	xmlns:android
-		ADDED from C:\Users\Muhammed Agcadag\AndroidStudioProjects\PromptAI\curvedtextview\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest8753421728773051852.xml:2:23-81
+		ADDED from C:\Users\Muhammed Agcadag\AndroidStudioProjects\PromptAI\curvedtextview\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest15803567348871602236.xml:2:23-81
 uses-sdk
-INJECTED from C:\Users\Muhammed Agcadag\AndroidStudioProjects\PromptAI\curvedtextview\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest8753421728773051852.xml reason: use-sdk injection requested
-INJECTED from C:\Users\Muhammed Agcadag\AndroidStudioProjects\PromptAI\curvedtextview\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest8753421728773051852.xml
-INJECTED from C:\Users\Muhammed Agcadag\AndroidStudioProjects\PromptAI\curvedtextview\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest8753421728773051852.xml
+INJECTED from C:\Users\Muhammed Agcadag\AndroidStudioProjects\PromptAI\curvedtextview\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest15803567348871602236.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Muhammed Agcadag\AndroidStudioProjects\PromptAI\curvedtextview\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest15803567348871602236.xml
+INJECTED from C:\Users\Muhammed Agcadag\AndroidStudioProjects\PromptAI\curvedtextview\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest15803567348871602236.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\Muhammed Agcadag\AndroidStudioProjects\PromptAI\curvedtextview\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest8753421728773051852.xml
+		INJECTED from C:\Users\Muhammed Agcadag\AndroidStudioProjects\PromptAI\curvedtextview\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest15803567348871602236.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\Muhammed Agcadag\AndroidStudioProjects\PromptAI\curvedtextview\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest8753421728773051852.xml
+		INJECTED from C:\Users\Muhammed Agcadag\AndroidStudioProjects\PromptAI\curvedtextview\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest15803567348871602236.xml

@@ -46,9 +46,14 @@ class MainActivity : ComponentActivity() {
         // finds the curvedTextView object
         val curvedTextView = findViewById<CurvedTextView>(R.id.CurvedTextView)
 
+        curvedTextView.curveDirection = 1 // 0 for top-to-bottom, 1 for bottom-to-top
+        curvedTextView.curveRadius = 32f // Adjust the value as needed
+        curvedTextView.angle = 180f // Adjust the angle in degrees
+        curvedTextView.radius = 100f // Adjust the radius of the circular path
+
         curvedTextView.setTextSize(TypedValue.COMPLEX_UNIT_PX, 16f)
 
-        curvedTextView.text = getString(R.string.DRAW)
+        curvedTextView.text = "Draw Button"
 
         curvedTextView.visibility = View.VISIBLE
 
@@ -66,6 +71,10 @@ class MainActivity : ComponentActivity() {
                         apiKey = BuildConfig.apiKey
                     )
                     val viewModel = SummarizeViewModel(generativeModel)
+
+                    // Find the CurvedTextView and set its text
+
+
                     SummarizeRoute(viewModel)
                 }
             }

@@ -1,4 +1,4 @@
-#Wed Mar 20 18:14:49 TRT 2024
+#Thu Mar 21 19:33:31 TRT 2024
 base.0=C\:\\Users\\Muhammed Agcadag\\AndroidStudioProjects\\PromptAI\\curvedtextview\\build\\intermediates\\dex\\debugAndroidTest\\mergeExtDexDebugAndroidTest\\classes.dex
 base.1=C\:\\Users\\Muhammed Agcadag\\AndroidStudioProjects\\PromptAI\\curvedtextview\\build\\intermediates\\dex\\debugAndroidTest\\mergeLibDexDebugAndroidTest\\0\\classes.dex
 base.2=C\:\\Users\\Muhammed Agcadag\\AndroidStudioProjects\\PromptAI\\curvedtextview\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\0\\classes.dex

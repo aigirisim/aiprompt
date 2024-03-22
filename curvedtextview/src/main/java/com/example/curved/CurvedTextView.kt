@@ -21,19 +21,19 @@ class CurvedTextView @JvmOverloads constructor(
 ) : androidx.appcompat.widget.AppCompatTextView(context, attrs, defStyleAttr) {
 
     // Define the properties with property delegates
-    private var curveDirection: Int = 0
+    var curveDirection: Int = 0
 
-    private var curveRadius: Float = 0f
+    var curveRadius: Float = 0f
 
-    private var angle: Float by Delegates.observable(0f) { _, _, _ ->
+    var angle: Float by Delegates.observable(0f) { _, _, _ ->
         // When the angle changes, update the path
         updatePath()
     }
-    private var radius: Float by Delegates.observable(0f) { _, _, _ ->
+    var radius: Float by Delegates.observable(0f) { _, _, _ ->
         // When the radius changes, update the path
         updatePath()
     }
-    var curvedText: String by Delegates.observable("") { _, _, _ ->
+    private var curvedText: String by Delegates.observable("") { _, _, _ ->
         // When the text changes, update the path
         updatePath()
     }
@@ -58,7 +58,7 @@ class CurvedTextView @JvmOverloads constructor(
         val typedArray = context.obtainStyledAttributes(attrs, R.styleable.CurvedTextView)
         val angle = typedArray.getFloat(R.styleable.CurvedTextView_angle, 0f)
         val radius = typedArray.getDimension(R.styleable.CurvedTextView_radius, 0f)
-        val curvedText = typedArray.getString(R.styleable.CurvedTextView_text) ?: ""
+        val curvedText: String = typedArray.getString(R.styleable.CurvedTextView_text) ?: ""
         val curvedTextColor = typedArray.getColor(R.styleable.CurvedTextView_textColor, Color.BLACK)
         val curvedTextSize = typedArray.getDimension(R.styleable.CurvedTextView_textSize, 0f)
         // Recycle the typed array
@@ -80,8 +80,8 @@ class CurvedTextView @JvmOverloads constructor(
         // Create a new path object
         val newPath = Path()
         // Calculate the center coordinates of the path
-        val centerX = this.width / 2f
-        val centerY = this.height / 2f
+        val centerX = (width / 2).toFloat()
+        val centerY = (height / 2).toFloat()
         when (curveDirection) {
             0 -> { // top_to_bottom
                 // Add a downward curve starting from the top of the road
@@ -186,7 +186,19 @@ class CurvedTextView @JvmOverloads constructor(
     }
 
     override fun onDraw(canvas: Canvas) {
-        // Use the paint object to draw the text on the curved path
-        path?.let { canvas.drawTextOnPath(curvedText, this.path!!, 0f, 0f, paint) }
+        super.onDraw(canvas)
+        path?.reset()
+        path?.addCircle(width / 2f, height / 2f, radius, Path.Direction.CW)
+
+        path?.addArc(
+            width / 2f - radius,
+            height / 2f - radius,
+            width / 2f + radius,
+            height / 2f + radius,
+            -90f,
+            angle
+        )
+
+        canvas.drawTextOnPath(curvedText, path!!, 0f, 0f, paint)
     }
 }

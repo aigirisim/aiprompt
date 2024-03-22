@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/linearLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:curveDirection="bottom_to_top"
-    app:curveRadius="10dp">
+    app:curveRadius="1000dp">
 
 
     <com.example.curved.CurvedTextView
@@ -17,17 +18,18 @@
         android:longClickable="true"
         android:padding="16dp"
         android:text="@string/DRAW"
-        android:textColor="#490303"
+        android:textColor="#3F51B5"
         android:textStyle="bold"
         android:visibility="visible"
+        app:angle="360"
         app:curveDirection="bottom_to_top"
-        app:curveRadius="32dp"
+        app:curveRadius="100dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.085" />
+        app:layout_constraintVertical_bias="0.048"
+        app:radius="1000dp" />
 
     <TextView
         android:id="@+id/textView6"
@@ -96,8 +98,8 @@
         android:layout_height="83dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="332dp"
-        android:src="@drawable/draw"
         android:contentDescription="@string/draw_image"
+        android:src="@drawable/draw"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
@@ -107,8 +109,8 @@
         android:layout_height="83dp"
         android:layout_marginStart="16dp"
         android:layout_marginBottom="332dp"
-        android:src="@drawable/education"
         android:contentDescription="@string/education_image"
+        android:src="@drawable/education"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -117,8 +119,8 @@
         android:layout_width="98dp"
         android:layout_height="83dp"
         android:layout_marginTop="52dp"
-        android:src="@drawable/technology_and_coding"
         android:contentDescription="@string/technology_and_coding_image"
+        android:src="@drawable/technology_and_coding"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
@@ -129,8 +131,8 @@
         android:layout_width="98dp"
         android:layout_height="83dp"
         android:layout_marginTop="212dp"
-        android:src="@drawable/video_and_music"
         android:contentDescription="@string/video_and_music_image"
+        android:src="@drawable/video_and_music"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
@@ -141,8 +143,8 @@
         android:layout_width="98dp"
         android:layout_height="83dp"
         android:layout_marginTop="52dp"
-        android:src="@drawable/creative_writing"
         android:contentDescription="@string/creative_writing_image"
+        android:src="@drawable/creative_writing"
         app:layout_constraintEnd_toStartOf="@+id/draw"
         app:layout_constraintHorizontal_bias="0.488"
         app:layout_constraintStart_toEndOf="@+id/education"

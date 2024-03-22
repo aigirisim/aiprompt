@@ -3,24 +3,24 @@
 3    package="com.example.curved.test" >
 4
 5    <uses-sdk
-5-->C:\Users\Muhammed Agcadag\AndroidStudioProjects\PromptAI\curvedtextview\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest1957197465792635304.xml:5:5-74
+5-->C:\Users\Muhammed Agcadag\AndroidStudioProjects\PromptAI\curvedtextview\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest16287393024904371919.xml:5:5-74
 6        android:minSdkVersion="21"
-6-->C:\Users\Muhammed Agcadag\AndroidStudioProjects\PromptAI\curvedtextview\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest1957197465792635304.xml:5:15-41
+6-->C:\Users\Muhammed Agcadag\AndroidStudioProjects\PromptAI\curvedtextview\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest16287393024904371919.xml:5:15-41
 7        android:targetSdkVersion="34" />
-7-->C:\Users\Muhammed Agcadag\AndroidStudioProjects\PromptAI\curvedtextview\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest1957197465792635304.xml:5:42-71
+7-->C:\Users\Muhammed Agcadag\AndroidStudioProjects\PromptAI\curvedtextview\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest16287393024904371919.xml:5:42-71
 8
 9    <instrumentation
-9-->C:\Users\Muhammed Agcadag\AndroidStudioProjects\PromptAI\curvedtextview\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest1957197465792635304.xml:11:5-15:73
+9-->C:\Users\Muhammed Agcadag\AndroidStudioProjects\PromptAI\curvedtextview\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest16287393024904371919.xml:11:5-15:73
 10        android:name="android.test.InstrumentationTestRunner"
-10-->C:\Users\Muhammed Agcadag\AndroidStudioProjects\PromptAI\curvedtextview\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest1957197465792635304.xml:11:22-75
+10-->C:\Users\Muhammed Agcadag\AndroidStudioProjects\PromptAI\curvedtextview\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest16287393024904371919.xml:11:22-75
 11        android:functionalTest="false"
-11-->C:\Users\Muhammed Agcadag\AndroidStudioProjects\PromptAI\curvedtextview\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest1957197465792635304.xml:14:22-52
+11-->C:\Users\Muhammed Agcadag\AndroidStudioProjects\PromptAI\curvedtextview\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest16287393024904371919.xml:14:22-52
 12        android:handleProfiling="false"
-12-->C:\Users\Muhammed Agcadag\AndroidStudioProjects\PromptAI\curvedtextview\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest1957197465792635304.xml:13:22-53
+12-->C:\Users\Muhammed Agcadag\AndroidStudioProjects\PromptAI\curvedtextview\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest16287393024904371919.xml:13:22-53
 13        android:label="Tests for com.example.curved.test"
-13-->C:\Users\Muhammed Agcadag\AndroidStudioProjects\PromptAI\curvedtextview\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest1957197465792635304.xml:15:22-71
+13-->C:\Users\Muhammed Agcadag\AndroidStudioProjects\PromptAI\curvedtextview\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest16287393024904371919.xml:15:22-71
 14        android:targetPackage="com.example.curved.test" />
-14-->C:\Users\Muhammed Agcadag\AndroidStudioProjects\PromptAI\curvedtextview\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest1957197465792635304.xml:12:22-69
+14-->C:\Users\Muhammed Agcadag\AndroidStudioProjects\PromptAI\curvedtextview\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest16287393024904371919.xml:12:22-69
 15
 16    <permission
 16-->[androidx.core:core:1.12.0] C:\Users\Muhammed Agcadag\.gradle\caches\transforms-4\cc8f29e85ac796620370abaedf1a3c8a\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
@@ -34,14 +34,14 @@
 20-->[androidx.core:core:1.12.0] C:\Users\Muhammed Agcadag\.gradle\caches\transforms-4\cc8f29e85ac796620370abaedf1a3c8a\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
 21
 22    <application
-22-->C:\Users\Muhammed Agcadag\AndroidStudioProjects\PromptAI\curvedtextview\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest1957197465792635304.xml:7:5-9:19
+22-->C:\Users\Muhammed Agcadag\AndroidStudioProjects\PromptAI\curvedtextview\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest16287393024904371919.xml:7:5-9:19
 23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 23-->[androidx.core:core:1.12.0] C:\Users\Muhammed Agcadag\.gradle\caches\transforms-4\cc8f29e85ac796620370abaedf1a3c8a\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
 24        android:debuggable="true"
 25        android:extractNativeLibs="true" >
 26        <uses-library android:name="android.test.runner" />
-26-->C:\Users\Muhammed Agcadag\AndroidStudioProjects\PromptAI\curvedtextview\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest1957197465792635304.xml:8:9-60
-26-->C:\Users\Muhammed Agcadag\AndroidStudioProjects\PromptAI\curvedtextview\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest1957197465792635304.xml:8:23-57
+26-->C:\Users\Muhammed Agcadag\AndroidStudioProjects\PromptAI\curvedtextview\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest16287393024904371919.xml:8:9-60
+26-->C:\Users\Muhammed Agcadag\AndroidStudioProjects\PromptAI\curvedtextview\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest16287393024904371919.xml:8:23-57
 27
 28        <provider
 28-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Muhammed Agcadag\.gradle\caches\transforms-4\1088e90e4af5ac7ee396d9fe65c20544\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
